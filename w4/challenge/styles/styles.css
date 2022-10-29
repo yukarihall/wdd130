@@ -1,0 +1,33 @@
+body {
+  background-color: lightpink;
+}
+p {
+  width: 50%;
+}
+a {
+  font-size: 2em;
+}
+h1 {
+  text-align: center;
+}
+nav, footer {
+  text-align: center;
+}
+main p {
+  width: 80%;
+  margin: 50px auto;
+  text-align: center;
+}
+nav, footer {
+  background-color: steelblue;
+  color: white;
+  padding: 10px;
+}
+footer p {
+  font-size: 20px;
+  margin: 20px auto;
+}
+a:hover {
+  background-color: white;
+  color: black;
+}
