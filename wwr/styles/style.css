@@ -8,6 +8,9 @@
   margin-top: 50px;
   border-radius: 5px;
 }
+.book:hover, .join:hover{
+  background-color: #6f7364;
+}
 header{
   display: grid;
   grid-template-columns: 150px auto;
@@ -16,6 +19,9 @@ nav{
   display: flex;
   flex-direction: column;
   align-self: center;
+}
+nav a:hover{
+  background-color: #6f7364;
 }
 #logo_link{
   padding-top: 5px;
@@ -41,7 +47,7 @@ nav{
 }
 .home-title {
   font-family: 'Rock Salt', 'Arial', 'san-serif';
-  font-size: 2em;
+  font-size: 3em;
   margin-top: 10px;
   color: #d9c2a3;
 }
@@ -87,6 +93,28 @@ footer{
 .card-img:hover{
   opacity: .6;
   transform: scale(1.1);
+}
+
+/*rivers page*/
+#rivers-main{
+    text-align: center;
+}
+#rivers-title{
+  font-family: 'Rock Salt', 'Arial', 'san-serif';
+  font-size: 3em;
+  color: #6f7364;
+  text-align: center;
+}
+#rivers-subtitle{
+  font-family: 'Rock Salt', 'Arial', 'san-serif';
+  font-size: 20pt;
+  color: #6f7364;
+  text-align: center;
+}
+.river-msg{
+  font-family: 'Roboto', 'Arial', 'san-serif';
+  text-align: justify;
+  font-size: 15pt;
 }
 
 @media  screen and (min-width: 600px){
@@ -149,7 +177,7 @@ footer{
     justify-content: space-around;
   }
   nav a{
-    color: white;
+    color: #d9c2a3;
     font-size: 20px;
   }
   .card-img{
@@ -170,4 +198,24 @@ footer{
   footer{
     margin-top: 25px;
   }
+
+  #idaho_river, #utah_river, #arizona_river{
+    display: flex;
+    align-items: flex-start;
+    padding: 15px;
+  }
+  #utah_river{
+    flex-direction: row-reverse;
+  }
+  #idaho-img, #utah-img, #arizona-img{
+    width: 600px;
+    height: 400px;
+    padding: 10px;
+  }
+  .river-msg{
+    padding: 15px;
+    padding-top: 130px;
+    
+  }
+
 }
