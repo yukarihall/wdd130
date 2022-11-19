@@ -73,9 +73,9 @@ nav a:hover{
   box-shadow: 5px 5px 10px #6f7364;
 }
 .msg{
-  background-color: #6f7364;
+  background-color: #ECACC5;
   padding: 35px;
-  box-shadow: 5px 5px 10px #6f7364;
+  box-shadow: 5px 5px 10px #064789 ;
   text-align: center;
 }
 footer{
@@ -98,22 +98,22 @@ footer{
 }
 
 /*rivers page*/
-#rivers-main{
+#student-main{
     text-align: center;
 }
-#rivers-title{
+#student-title{
   font-family: 'Rock Salt', 'Arial', 'san-serif';
   font-size: 3em;
-  color: #6f7364;
+  color: #eb4b98;
   text-align: center;
 }
-#rivers-subtitle{
+#student-subtitle{
   font-family: 'Rock Salt', 'Arial', 'san-serif';
   font-size: 20pt;
-  color: #6f7364;
+  color: #eb4b98;
   text-align: center;
 }
-.river-msg{
+.student-msg{
   font-family: 'Roboto', 'Arial', 'san-serif';
   text-align: justify;
   font-size: 15pt;
@@ -238,11 +238,11 @@ button {
   }
   #hero-msg h4{
     font-size: 30px;
-    color: #064789;  
+    color: #eb4b98;  
   }
   .home-title{
     font-size: 40px;
-    color: #064789;
+    color: #eb4b98;
   }
   #hero-box {
     grid-column: 1/4;
