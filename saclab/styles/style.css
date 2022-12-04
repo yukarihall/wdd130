@@ -264,6 +264,7 @@ button {
     margin-top: 25px;
   }
 
+/* student page*/
   #student1, #student2{
     display: flex;
     align-items: flex-start;
