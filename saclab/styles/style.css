@@ -264,23 +264,23 @@ button {
     margin-top: 25px;
   }
 
-  /* #idaho_river, #utah_river, #arizona_river{
+  #student1, #student2{
     display: flex;
     align-items: flex-start;
     padding: 15px;
   }
-  #utah_river{
+  #student2{
     flex-direction: row-reverse;
   }
-  #idaho-img, #utah-img, #arizona-img{
+  #student1-img, #student2-img{
     width: 600px;
     height: 400px;
     padding: 10px;
   }
-  .river-msg{
+  .student-msg{
     padding: 15px;
     padding-top: 130px;
     
-  } */
+  }
 
 }
