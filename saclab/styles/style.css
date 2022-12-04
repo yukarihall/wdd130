@@ -205,8 +205,11 @@ button {
 
 @media  screen and (min-width: 600px){
   #hero{
-    display: grid;
-    grid-template-columns: 70% 30%;
+    /* display: grid;
+    grid-template-columns: 70% 30%; */
+    max-width: 100%;
+  }
+  #hero-msgbox{
     max-width: 100%;
   }
  .home-grid{
@@ -227,7 +230,7 @@ button {
   }
   #hero-msg h4{
     font-size: 25px;
-    color: #eb4b98;  
+    color: #eb4b98;
   }
   .home-title{
     font-size: 40px;
@@ -248,7 +251,7 @@ button {
     width: 100%;
     height: 100%;
   }
-  .student-card{
+  /* .student-card{
     grid-column: 1/2;
     grid-row: 1/2;
     
@@ -256,7 +259,7 @@ button {
   .teacher-card{
     grid-column: 2/3;
     grid-row: 1/2;
-  }
+  } */
   footer{
     margin-top: 25px;
   }
